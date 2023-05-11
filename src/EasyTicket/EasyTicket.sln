@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventManagement", "EventManagement", "{C0806B46-5AAC-4E3F-A332-9E8D07DD4073}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicketManagement", "TicketManagement", "{3914AE64-9751-42A6-A286-4A92897134E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApi", "Event.Api\EventApi.csproj", "{948C10A3-41B2-40E7-B5D7-2FA03534031E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{948C10A3-41B2-40E7-B5D7-2FA03534031E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948C10A3-41B2-40E7-B5D7-2FA03534031E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948C10A3-41B2-40E7-B5D7-2FA03534031E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948C10A3-41B2-40E7-B5D7-2FA03534031E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{948C10A3-41B2-40E7-B5D7-2FA03534031E} = {C0806B46-5AAC-4E3F-A332-9E8D07DD4073}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E1DC899-8915-4FDB-89BE-E72901825706}
+	EndGlobalSection
+EndGlobal
