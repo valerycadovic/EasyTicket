@@ -1,8 +1,8 @@
-﻿using EventApi.Models.Venues;
-using EventApi.Services.Venues;
+﻿using CommonLibrary.Models.Venues;
+using CommonLibrary.Services.Venues;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EventApi.Controllers.Venues
+namespace CommonLibrary.Controllers.Venues
 {
     [Route("api/venues")]
     public class VenuesController : Controller

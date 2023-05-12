@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EventApi.Views
+namespace CommonLibrary.Views
 {
     public record PostVenueView(
         [Required]

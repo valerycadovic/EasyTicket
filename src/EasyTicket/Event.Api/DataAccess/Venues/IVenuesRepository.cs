@@ -1,6 +1,7 @@
-﻿using EventApi.Models.Venues;
+﻿using CommonLibrary.DataAccess;
+using CommonLibrary.Models.Venues;
 
-namespace EventApi.DataAccess.Venues
+namespace CommonLibrary.DataAccess.Venues
 {
     public interface IVenuesRepository : IRepository<Venue, VenuesFilter>
     {

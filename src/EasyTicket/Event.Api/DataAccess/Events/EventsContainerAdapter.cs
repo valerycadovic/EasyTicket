@@ -1,6 +1,6 @@
 ﻿using Microsoft.Azure.Cosmos;
 
-namespace EventApi.DataAccess.Events
+namespace CommonLibrary.DataAccess.Events
 {
     public class EventsContainerAdapter
     {

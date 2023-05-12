@@ -1,6 +1,6 @@
-﻿using EventApi.Models.Venues;
+﻿using CommonLibrary.Models.Venues;
 
-namespace EventApi.Models.Events
+namespace CommonLibrary.Models.Events
 {
     public record EventExtended(
         Guid Id,

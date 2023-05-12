@@ -1,6 +1,6 @@
-﻿using EventApi.Models.Events;
+﻿using CommonLibrary.Models.Events;
 
-namespace EventApi.DataAccess.Events
+namespace CommonLibrary.DataAccess.Events
 {
     public sealed class EventsRepository : Repository<Event, EventsFilter>
     {

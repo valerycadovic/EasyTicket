@@ -2,7 +2,7 @@
 using Microsoft.Azure.Cosmos.Linq;
 using System.Net;
 
-namespace EventApi.DataAccess
+namespace CommonLibrary.DataAccess
 {
     public class Repository<TEntity, TFilter> : IRepository<TEntity, TFilter>
         where TEntity : class, IEquatable<TEntity>

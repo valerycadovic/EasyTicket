@@ -1,8 +1,8 @@
-﻿using EventApi.Models.Events;
-using EventApi.Models.Venues;
-using EventApi.Services.Events;
+﻿using CommonLibrary.Models.Events;
+using CommonLibrary.Models.Venues;
+using CommonLibrary.Services.Events;
 
-namespace EventApi.Views
+namespace CommonLibrary.Views
 {
     public static class EventViewMapping
     {

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace EventApi.Models.Events
+namespace CommonLibrary.Models.Events
 {
     public enum TicketsInfo
     {

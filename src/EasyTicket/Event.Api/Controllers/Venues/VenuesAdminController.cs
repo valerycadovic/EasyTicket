@@ -1,10 +1,10 @@
-﻿using EventApi.Exceptions;
-using EventApi.Models.Venues;
-using EventApi.Services.Venues;
-using EventApi.Views;
+﻿using CommonLibrary.Exceptions;
+using CommonLibrary.Models.Venues;
+using CommonLibrary.Services.Venues;
+using CommonLibrary.Views;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EventApi.Controllers.Venues
+namespace CommonLibrary.Controllers.Venues
 {
     [Route("api/admin/venues")]
     public class VenuesAdminController : Controller

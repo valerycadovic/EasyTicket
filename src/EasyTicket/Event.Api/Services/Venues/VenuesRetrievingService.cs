@@ -1,9 +1,9 @@
-﻿using EventApi.DataAccess;
-using EventApi.DataAccess.Venues;
-using EventApi.Exceptions;
-using EventApi.Models.Venues;
+﻿using CommonLibrary.DataAccess;
+using CommonLibrary.DataAccess.Venues;
+using CommonLibrary.Exceptions;
+using CommonLibrary.Models.Venues;
 
-namespace EventApi.Services.Venues
+namespace CommonLibrary.Services.Venues
 {
     public class VenuesRetrievingService : IVenuesRetrievingService
     {

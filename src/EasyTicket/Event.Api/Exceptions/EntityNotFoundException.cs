@@ -1,4 +1,4 @@
-﻿namespace EventApi.Exceptions
+﻿namespace CommonLibrary.Exceptions
 {
     public class EntityNotFoundException : Exception
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Azure.Cosmos;
 
-namespace EventApi.DataAccess.Venues
+namespace CommonLibrary.DataAccess.Venues
 {
     public class VenuesContainerAdapter
     {

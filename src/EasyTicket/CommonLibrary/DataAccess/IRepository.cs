@@ -1,7 +1,7 @@
-﻿namespace EventApi.DataAccess
+﻿namespace CommonLibrary.DataAccess
 {
     public interface IRepository<TEntity, in TFilter>
-        where TEntity : class, IEquatable<TEntity> 
+        where TEntity : class, IEquatable<TEntity>
         where TFilter : class
     {
         Task<IEnumerable<TEntity>> Get(TFilter filter);

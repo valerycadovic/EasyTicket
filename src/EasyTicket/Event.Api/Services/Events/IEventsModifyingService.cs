@@ -1,6 +1,6 @@
-﻿using EventApi.Models.Events;
+﻿using CommonLibrary.Models.Events;
 
-namespace EventApi.Services.Events
+namespace CommonLibrary.Services.Events
 {
     public interface IEventsModifyingService
     {

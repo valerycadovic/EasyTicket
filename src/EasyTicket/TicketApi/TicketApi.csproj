@@ -7,13 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\.editorconfig" Link=".editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Dapr.AspNetCore" Version="1.10.0" />
-    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.33.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <Folder Include="Controllers\" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>

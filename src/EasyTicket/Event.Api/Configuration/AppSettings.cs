@@ -1,4 +1,4 @@
-﻿namespace EventApi.Configuration
+﻿namespace CommonLibrary.Configuration
 {
     public class AppSettings
     {

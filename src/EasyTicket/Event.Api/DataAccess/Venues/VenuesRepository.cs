@@ -1,6 +1,6 @@
-﻿using EventApi.Models.Venues;
+﻿using CommonLibrary.Models.Venues;
 
-namespace EventApi.DataAccess.Venues
+namespace CommonLibrary.DataAccess.Venues
 {
     public sealed class VenuesRepository : Repository<Venue, VenuesFilter>, IVenuesRepository
     {

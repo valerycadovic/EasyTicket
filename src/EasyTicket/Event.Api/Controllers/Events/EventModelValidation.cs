@@ -1,7 +1,7 @@
-﻿using EventApi.Models.Events;
-using EventApi.Views;
+﻿using CommonLibrary.Models.Events;
+using CommonLibrary.Views;
 
-namespace EventApi.Controllers.Events
+namespace CommonLibrary.Controllers.Events
 {
     public static class EventModelValidation
     {

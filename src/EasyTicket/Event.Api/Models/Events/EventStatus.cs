@@ -1,4 +1,4 @@
-﻿namespace EventApi.Models.Events
+﻿namespace CommonLibrary.Models.Events
 {
     public enum EventStatus
     {

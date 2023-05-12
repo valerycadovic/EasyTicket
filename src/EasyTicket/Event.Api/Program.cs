@@ -1,11 +1,10 @@
-using EventApi.Configuration;
-using EventApi.DataAccess;
-using EventApi.DataAccess.Events;
-using EventApi.DataAccess.Venues;
-using EventApi.Models.Events;
-using EventApi.Models.Venues;
-using EventApi.Services.Events;
-using EventApi.Services.Venues;
+using CommonLibrary.DataAccess;
+using CommonLibrary.Configuration;
+using CommonLibrary.DataAccess.Events;
+using CommonLibrary.DataAccess.Venues;
+using CommonLibrary.Models.Events;
+using CommonLibrary.Services.Events;
+using CommonLibrary.Services.Venues;
 using Microsoft.Azure.Cosmos;
 using Microsoft.OpenApi.Models;
 

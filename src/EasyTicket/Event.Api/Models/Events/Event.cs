@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace EventApi.Models.Events
+namespace CommonLibrary.Models.Events
 {
     public record Event(
         string Name,

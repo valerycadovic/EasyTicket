@@ -1,7 +1,7 @@
-﻿using EventApi.Models.Events;
+﻿using CommonLibrary.Models.Events;
 using System.ComponentModel.DataAnnotations;
 
-namespace EventApi.Views
+namespace CommonLibrary.Views
 {
     public record PostEventView(
         [Required]

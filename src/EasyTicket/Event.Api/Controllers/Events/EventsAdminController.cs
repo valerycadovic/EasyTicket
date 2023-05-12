@@ -1,11 +1,11 @@
-﻿using EventApi.Exceptions;
-using EventApi.Models.Events;
-using EventApi.Services.Events;
-using EventApi.Views;
+﻿using CommonLibrary.Exceptions;
+using CommonLibrary.Models.Events;
+using CommonLibrary.Services.Events;
+using CommonLibrary.Views;
 using Microsoft.AspNetCore.Mvc;
-using static EventApi.Controllers.Events.EventModelValidation;
+using static CommonLibrary.Controllers.Events.EventModelValidation;
 
-namespace EventApi.Controllers.Events
+namespace CommonLibrary.Controllers.Events
 {
     [Route("api/admin/events")]
     public class EventsAdminController : Controller

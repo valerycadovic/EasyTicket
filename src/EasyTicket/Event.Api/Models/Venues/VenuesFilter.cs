@@ -1,4 +1,4 @@
-﻿namespace EventApi.Models.Venues
+﻿namespace CommonLibrary.Models.Venues
 {
     public record VenuesFilter(
         string? NameSearchPattern,

@@ -1,7 +1,7 @@
-﻿using EventApi.DataAccess;
-using EventApi.Models.Events;
+﻿using CommonLibrary.DataAccess;
+using CommonLibrary.Models.Events;
 
-namespace EventApi.Services.Events
+namespace CommonLibrary.Services.Events
 {
     public sealed class EventsModifyingService : IEventsModifyingService
     {

@@ -1,11 +1,11 @@
-﻿using EventApi.DataAccess;
-using EventApi.Exceptions;
-using EventApi.Models.Events;
-using EventApi.Models.Venues;
-using EventApi.Services.Venues;
-using EventApi.Views;
+﻿using CommonLibrary.DataAccess;
+using CommonLibrary.Exceptions;
+using CommonLibrary.Models.Events;
+using CommonLibrary.Models.Venues;
+using CommonLibrary.Services.Venues;
+using CommonLibrary.Views;
 
-namespace EventApi.Services.Events
+namespace CommonLibrary.Services.Events
 {
     public class EventsRetrievingService : IEventsRetrievingService
     {

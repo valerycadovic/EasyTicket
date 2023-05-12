@@ -1,6 +1,6 @@
-﻿using EventApi.Models.Venues;
+﻿using CommonLibrary.Models.Venues;
 
-namespace EventApi.Views
+namespace CommonLibrary.Views
 {
     public static class VenueViewMapping
     {

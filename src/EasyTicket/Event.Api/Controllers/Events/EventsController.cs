@@ -1,10 +1,10 @@
-﻿using EventApi.Models.Events;
-using EventApi.Services.Events;
+﻿using CommonLibrary.Models.Events;
+using CommonLibrary.Services.Events;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
-using static EventApi.Controllers.Events.EventModelValidation;
+using static CommonLibrary.Controllers.Events.EventModelValidation;
 
-namespace EventApi.Controllers.Events
+namespace CommonLibrary.Controllers.Events
 {
     [Route("api/events")]
     public class EventsController : Controller

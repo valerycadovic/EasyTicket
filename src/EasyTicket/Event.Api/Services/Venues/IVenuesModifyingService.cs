@@ -1,6 +1,6 @@
-﻿using EventApi.Models.Venues;
+﻿using CommonLibrary.Models.Venues;
 
-namespace EventApi.Services.Venues
+namespace CommonLibrary.Services.Venues
 {
     public interface IVenuesModifyingService
     {
